@@ -1,0 +1,6 @@
+mixin article(title, text, urlImage='')
+    article.article
+        if urlImage!= ''
+            img(src= urlImage, alt="device-photo").article__image
+        h2.article__title= title
+        p.article__text= text
