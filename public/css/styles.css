@@ -57,7 +57,6 @@ img {
 @media screen and (min-width: 900px) {
   body {
     background-image: url("../assets/images/bg-header-desktop.png");
-    background-repeat: no-repeat;
   }
 
   h1 {
