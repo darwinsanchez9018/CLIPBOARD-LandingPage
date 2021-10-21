@@ -11,7 +11,7 @@ html {
 body {
     margin: 0;
     padding: 0 2rem;
-    background-image: url(/public/assets/images/bg-header-mobile.png);
+    background-image: url("../assets/images/bg-header-mobile.png");
     background-repeat: no-repeat;
     background-position: top right;
     font-family: 'Bai Jamjuree', sans-serif;
@@ -42,8 +42,7 @@ img {
 /*------------ Media Queries -------------*/
 @media screen and (min-width: 900px) {
     body  {
-        background-image: url(/public/assets/images/bg-header-desktop.png);
-        background-repeat: no-repeat;
+        background-image: url("../assets/images/bg-header-desktop.png");
     }
 
     h1 {
